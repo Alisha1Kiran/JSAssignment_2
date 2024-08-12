@@ -11,4 +11,5 @@ let convertString = (val) => {
 }
 
 let value = prompt("Enter the string : ");
-console.log(convertString(value));
+// console.log(convertString(value));
+document.write(convertString(value));
